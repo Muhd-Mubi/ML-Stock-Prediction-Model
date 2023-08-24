@@ -1,4 +1,7 @@
 # import the libraries
+
+print("\n\n\t\tLoading....")
+
 import os
 import time
 import warnings
@@ -30,10 +33,10 @@ def dateFormat(fileName):
 
     print("Dates converted and saved to", output_file_path)
 
-df = pd.read_csv("Standard Chartered Bank (Pak) Ltd.csv")
-df1 = pd.read_csv("Dawood Hercules Corporation Limited.csv")
-df2 = pd.read_csv("Pakistan State Oil Company Limited.csv")
-df3 = pd.read_csv("Fauji Fertilizer Company Limited.csv")
+df = pd.read_csv("Data/Standard Chartered Bank (Pak) Ltd.csv")
+df1 = pd.read_csv("Data/Dawood Hercules Corporation Limited.csv")
+df2 = pd.read_csv("Data/Pakistan State Oil Company Limited.csv")
+df3 = pd.read_csv("Data/Fauji Fertilizer Company Limited.csv")
 # df4 = pd.read_csv("Data\")
 
 
